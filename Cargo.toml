@@ -33,7 +33,7 @@ rust_decimal = { version = "1.34", optional = true }
 default = []
 chrono-support = ["chrono"]
 json = ["serde_json"]
-decimal = ["rust_decimal", "sqlx:rust_decimal"]
+decimal = ["rust_decimal", "sqlx/rust_decimal"]
 
 [dev-dependencies]
 anyhow = "1"
